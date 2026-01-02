@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Website - Web Developer">
+    <title>Portfolio - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link active">About</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div class="avatar">
+                    <img src="avatar.png" alt="Profile Picture" id="profile-img">
+                </div>
+                <h1 class="name">Agil Satria</h1>
+                <h2 class="title">Ancang Pamungkas</h2>
+                <p class="role">Web Developer</p>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope icon"></i>
+                        <div>
+                            <span class="label">EMAIL</span>
+                            <a href="mailto:gilsatria21@gmail.com" class="value">gilsatria21@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-phone icon"></i>
+                        <div>
+                            <span class="label">PHONE</span>
+                            <span class="value">+62 896 8588 1851</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-birthday-cake icon"></i>
+                        <div>
+                            <span class="label">BIRTHDAY</span>
+                            <span class="value">November 21, 2003</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt icon"></i>
+                        <div>
+                            <span class="label">LOCATION</span>
+                            <span class="value">Purbalingga, Jawa Tengah, Indonesia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- About Section -->
+            <section id="about" class="section active">
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+
+                <p class="about-text">
+                    Seorang Developer dengan pengalaman dalam pengembangan aplikasi web dan mobile. Latar belakang pendidikan di SMK Negeri 1
+                    Purbalingga, jurusan Rekayasa Perangkat Lunak, lulusan Teknik Informatika Universitas Amikom Purwokerto, angkatan 2021.
+                    Terampil dalam bekerja secara individu dan dalam tim, dengan kemampuan beradaptasi yang tinggi terhadap teknologi baru.
+                </p>
+
+                <p class="about-text">
+                    Pembelajar yang cepat, proaktif, dan siap menghadapi tantangan baru dalam dunia pengembangan aplikasi. Berpengalaman dalam
+                    pengembangan sistem berbasis web dan mobile, dengan pemahaman yang kuat terhadap teknologi terkini. Siap untuk berkontribusi
+                    dalam tim pengembangan aplikasi yang inovatif, efisien, dan dapat diandalkan.
+                </p>
+
+                <h3 class="subsection-title">Keahlian</h3>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Web Development</h4>
+                            <p>Pengembangan aplikasi web full-stack menggunakan Laravel, CodeIgniter, React JS, dan Express JS dengan fokus pada API development.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Mobile Development</h4>
+                            <p>Pengembangan aplikasi mobile menggunakan Flutter dan Kotlin dengan arsitektur MVVM dan GetX.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Database & API</h4>
+                            <p>Merancang database, membuat REST API, dan integrasi sistem dengan performa optimal.</p>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>IoT & Machine Learning</h4>
+                            <p>Pengalaman dalam sistem IoT dan implementasi Machine Learning berbasis LSTM untuk chatbot.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!-- Resume Section -->
+            <section id="resume" class="section">
+                <h2 class="section-title">Resume</h2>
+                <div class="title-underline"></div>
+
+                <div class="resume-section">
+                    <h3 class="subsection-title">
+                        <i class="fas fa-graduation-cap"></i> Pendidikan
+                    </h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-date">September 2021 - Maret 2025</span>
+                            <h4>Universitas Amikom Purwokerto</h4>
+                            <p class="timeline-subtitle">S1 - Teknik Informatika</p>
+                            <p>Fokus pada pengembangan web dan mobile, pemrograman, database management, dan pengembangan sistem informasi.
+                            Aktif dalam organisasi Forum Asisten dan Intermedia. Mengikuti program Bangkit Academy (Kampus Merdeka MSIB)
+                            sebagai Mobile Developer pada tahun 2023.</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">Juli 2018 - Juni 2021</span>
+                            <h4>SMK Negeri 1 Purbalingga</h4>
+                            <p class="timeline-subtitle">Rekayasa Perangkat Lunak</p>
+                            <p>Mempelajari dasar-dasar pemrograman, pengembangan aplikasi, database, dan pengembangan perangkat lunak.
+                            Mendapatkan pengalaman praktis dalam pengembangan aplikasi dan sistem informasi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-section">
+                    <h3 class="subsection-title">
+                        <i class="fas fa-briefcase"></i> Pengalaman Kerja
+                    </h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-date">April 2025 - Sekarang</span>
+                            <h4>Fullstack Engineer</h4>
+                            <p class="timeline-subtitle">PT. Hudoro Solution Digital (Freelance) - Tangerang</p>
+                            <p>Mengembangkan sistem invoice dan faktur digital lengkap dengan fitur validasi dan notifikasi.
+                            Mengimplementasikan fungsi cetak dan preview untuk dokumen penting (quotation, sertifikat).
+                            Membangun integrasi antara CMS dan sistem manajemen invoice. Mengoptimalkan proses otorisasi dan otentikasi
+                            pada sistem customer billing. Merancang dan membangun API untuk pembuatan dan pengelolaan invoice.</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">Maret 2024 - Juli 2024</span>
+                            <h4>Mobile Developer</h4>
+                            <p class="timeline-subtitle">CV. Motekar Cipta Teknologi (Magang) - Purwokerto</p>
+                            <p>Bekerja dengan Flutter Framework untuk mengembangkan fitur chatbot untuk aplikasi Bengkel Nusantara.
+                            Membangun model dengan Machine Learning berbasis LSTM untuk fitur chatbot. Membangun Rest API menggunakan
+                            Flask Framework untuk implementasi model dan konsumsi Flutter. Membangun aplikasi dengan arsitektur GetX di Flutter.</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">September 2023 - Desember 2023</span>
+                            <h4>Mobile Developer</h4>
+                            <p class="timeline-subtitle">Bangkit Academy (Kampus Merdeka MSIB)</p>
+                            <p>Salah satu peserta terpilih menjadi mahasiswa Batch 2 Rise. Belajar dan mengeksplorasi posisi sebagai
+                            pengembang aplikasi mobile. Bekerja dalam tim untuk membuat aplikasi yang saling terhubung antara mobile,
+                            cloud computing, dan machine learning. Bekerja dengan arsitektur MVVM dan menggunakan Jetpack Compose
+                            untuk pengembangan produk capstone.</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">November 2019 - April 2020</span>
+                            <h4>IoT Engineer & Production Support</h4>
+                            <p class="timeline-subtitle">PT. Nocola IOT Solution (Intern) - Cilacap</p>
+                            <p>Terlibat dalam pengembangan sistem IoT untuk sistem parkir di IPC Tanjung Priok.
+                            Melakukan pengujian aplikasi untuk mendeteksi bug atau kesalahan serta membuat laporan.
+                            Membangun REST API menggunakan CodeIgniter 3 bersama tim untuk pengembangan aplikasi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-section">
+                    <h3 class="subsection-title">
+                        <i class="fas fa-tools"></i> Keterampilan Teknis
+                    </h3>
+
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <h4>Backend Development</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">PHP - Mahir</span>
+                                <span class="skill-tag">Laravel 8 - Menengah</span>
+                                <span class="skill-tag">CodeIgniter 3 - Menengah</span>
+                                <span class="skill-tag">Express JS - Pemula</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <h4>Frontend Development</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML & CSS - Menengah</span>
+                                <span class="skill-tag">React JS - Pemula</span>
+                                <span class="skill-tag">JavaScript</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <h4>Mobile Development</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Flutter - Pemula</span>
+                                <span class="skill-tag">Kotlin - Pemula</span>
+                                <span class="skill-tag">Jetpack Compose</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <h4>Database & Others</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">Git & GitHub</span>
+                                <span class="skill-tag">REST API</span>
+                                <span class="skill-tag">Flask</span>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <h4>Bahasa</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Indonesia - Fasih</span>
+                                <span class="skill-tag">Inggris - Terbatas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-section">
+                    <h3 class="subsection-title">
+                        <i class="fas fa-users"></i> Organisasi
+                    </h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-date">September 2022 - Januari 2023</span>
+                            <h4>Koordinator Organisasi</h4>
+                            <p class="timeline-subtitle">Forum Asisten - Purwokerto</p>
+                            <p>Berkoordinasi dengan dosen terkait mata kuliah yang akan disampaikan. Mengembangkan materi yang akan
+                            dipresentasikan kepada mahasiswa. Menyampaikan materi dengan baik kepada mahasiswa dan mengevaluasi
+                            perkembangan mahasiswa dengan persetujuan dosen.</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-date">Maret 2022 - Juni 2022</span>
+                            <h4>Anggota Organisasi</h4>
+                            <p class="timeline-subtitle">Intermedia - Purwokerto</p>
+                            <p>Secara aktif berpartisipasi dalam kegiatan yang telah dijadwalkan. Aktif dalam mengerjakan tugas
+                            yang diberikan bersama tim dan berkontribusi dalam meningkatkan kinerja tim.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="section">
+                <h2 class="section-title">Portfolio</h2>
+                <div class="title-underline"></div>
+
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="app">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="iot">IoT & ML</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="web" data-title="Sistem Invoice & Faktur Digital"
+                        data-description="Mengembangkan sistem invoice dan faktur digital lengkap dengan fitur validasi dan notifikasi. Mengimplementasikan fungsi cetak dan preview untuk dokumen penting (quotation, sertifikat). Membangun integrasi antara CMS dan sistem manajemen invoice dengan API yang robust."
+                        data-tech="Laravel, PHP, MySQL, REST API" data-link="#">
+                        <div class="portfolio-image">
+                            <img src="project1.jpg" alt="Invoice System">
+                            <div class="portfolio-overlay">
+                                <h4>Sistem Invoice Digital</h4>
+                                <p>Web Development</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="app" data-title="MentorHeal - Mental Health App"
+                        data-description="Proyek Capstone Bangkit Academy. Merancang UI untuk aplikasi mobile di Figma dan mengembangkan aplikasi mobile menggunakan Jetpack Compose. Aplikasi ini fokus pada mental health support dengan integrasi cloud computing dan machine learning."
+                        data-tech="Kotlin, Jetpack Compose, MVVM, Figma" data-link="#">
+                        <div class="portfolio-image">
+                            <img src="project2.jpg" alt="MentorHeal">
+                            <div class="portfolio-overlay">
+                                <h4>MentorHeal</h4>
+                                <p>Mobile Apps</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="app" data-title="SewaIN - Aplikasi Penyewaan Barang"
+                        data-description="Membangun aplikasi mobile untuk penyewaan barang menggunakan Flutter Framework sebagai Full Stack Developer. Membangun REST API menggunakan Laravel Framework dan merancang basis data yang mencakup Flowchart, ERD, dan UML."
+                        data-tech="Flutter, Laravel, MySQL, REST API" data-link="#">
+                        <div class="portfolio-image">
+                            <img src="project3.jpg" alt="SewaIN">
+                            <div class="portfolio-overlay">
+                                <h4>SewaIN Mobile</h4>
+                                <p>Mobile Apps</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="app" data-title="Bengkel Nusantara - Chatbot Feature"
+                        data-description="Mengembangkan fitur chatbot untuk aplikasi Bengkel Nusantara menggunakan Flutter Framework. Membangun model Machine Learning berbasis LSTM dan REST API menggunakan Flask Framework. Menggunakan arsitektur GetX untuk state management."
+                        data-tech="Flutter, GetX, LSTM, Flask, Machine Learning" data-link="#">
+                        <div class="portfolio-image">
+                            <img src="project4.jpg" alt="Bengkel Nusantara">
+                            <div class="portfolio-overlay">
+                                <h4>Chatbot Bengkel Nusantara</h4>
+                                <p>Mobile Apps</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="iot" data-title="Sistem IoT Parkir"
+                        data-description="Terlibat dalam pengembangan sistem IoT untuk sistem parkir di IPC Tanjung Priok. Melakukan pengujian aplikasi untuk mendeteksi bug atau kesalahan. Membangun REST API menggunakan CodeIgniter 3 untuk mendukung sistem IoT."
+                        data-tech="CodeIgniter 3, IoT, REST API, MySQL" data-link="#">
+                        <div class="portfolio-image">
+                            <img src="project5.jpg" alt="IoT Parking">
+                            <div class="portfolio-overlay">
+                                <h4>Sistem Parkir IoT</h4>
+                                <p>IoT & ML</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="web" data-title="Customer Billing System"
+                        data-description="Mengoptimalkan proses otorisasi dan otentikasi pada sistem customer billing. Mengembangkan filter dan sistem notifikasi untuk status invoice dan pembayaran. Mengintegrasikan sistem notifikasi email yang sinkron dengan detail pesanan."
+                        data-tech="PHP, Laravel, MySQL, Email Integration" data-link="#">
+                        <div class="portfolio-image">
+                            <img src="project6.jpg" alt="Billing System">
+                            <div class="portfolio-overlay">
+                                <h4>Customer Billing System</h4>
+                                <p>Web Development</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Portfolio Modal -->
+    <div id="portfolioModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="" alt="Project">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription"></p>
+                    <div class="modal-tech">
+                        <h4>Technologies Used:</h4>
+                        <p id="modalTech"></p>
+                    </div>
+                    <a id="modalLink" href="#" class="modal-btn" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
